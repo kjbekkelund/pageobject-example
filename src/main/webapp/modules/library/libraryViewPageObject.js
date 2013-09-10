@@ -14,8 +14,8 @@ define(function(require) {
             var server = sinon.fakeServer.create();
 
             var genresResponse = [
-                {"name":"Crime novel"},
-                {"name":"Picaresco"}
+                { name: "Crime novel" },
+                { name: "Picaresco" }
             ];
 
             this.view.$(".add-book").click();
